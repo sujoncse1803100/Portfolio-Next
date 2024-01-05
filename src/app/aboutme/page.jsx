@@ -24,7 +24,7 @@ const page = () => {
               alt="Email"
             />
             <h3 className="name">Sujon Ali</h3>
-            <h3 className="designation">Web Developer</h3>
+            <h3 className="designation">Software Engineer</h3>
           </div>
 
           <div className="contact">

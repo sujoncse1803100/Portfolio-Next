@@ -67,11 +67,15 @@
   text-decoration: underline;
 }
 
-.others >p> a:hover {
+.others > p > a:hover {
   color: red;
 }
 
 .others > p {
   margin: 5px 0px;
   text-align: justify;
+}
+
+.heading {
+  color: green !important;
 }

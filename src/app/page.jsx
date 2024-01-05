@@ -14,7 +14,7 @@ export default function Home() {
     <div className={styles.container}>
       <div className={styles.item}>
         <h1 className={styles.title}>
-          Beyond Pixels: Crafting Experiences with Code"
+          Beyond Pixels: Crafting Experiences with Code!
         </h1>
         <p className={styles.desc}>
           Embark on a digital odyssey as I weave seamless experiences with code,
