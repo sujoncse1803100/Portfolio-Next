@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import Image from "next/image";
-import Button from "../Button/Button";
+import DownloadButton from "./DownloadButton";
 
 const Aboutme = () => {
   return (
@@ -84,7 +84,7 @@ const Aboutme = () => {
         </p>
       </div>
 
-      <Button url="/projects" className="mt-5" text="Download My CV" />
+      <DownloadButton className="bg-blue-500" />
     </div>
   );
 };
