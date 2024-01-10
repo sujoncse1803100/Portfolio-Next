@@ -14,18 +14,7 @@ const Layout = ({ children }) => {
     delay: 1000,
   });
 
-  return (
-    <div>
-      <h1 className={styles.mainTitle}>
-        <span>I have completed about </span>
-        <animated.span style={{ fontSize: "2rem", color: "green" }}>
-          {number.to((n) => n.toFixed(0))}
-        </animated.span>
-        <span>+ projects</span>
-      </h1>
-      {children}
-    </div>
-  );
+  return <div>{children}</div>;
 };
 
 export default Layout;

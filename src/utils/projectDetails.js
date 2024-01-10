@@ -7,6 +7,7 @@ const projectDetails = [
       "Creative Agency.In this project client can be hire various technology of developer such as web developer, android developer, graphic designer etc.",
     URL: "https://creative-agency-7485b.firebaseapp.com/",
     github: "",
+    img: "creative_agency.png",
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ const projectDetails = [
       "Gymnesium website. A man can admit gymnasium through this website by pay money through dabit card or paypal",
     URL: "https://web-application-f80e9.firebaseapp.com/ ",
     github: "",
+    img: "powr_gym.png",
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ const projectDetails = [
       "Doctors Portal. Patient can admit through this web application. Admin can handle admin panael",
     URL: "https://doctors-portal-b2cd6.firebaseapp.com/",
     github: "",
+    img: "doctors_portal.png",
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ const projectDetails = [
       "This is a social media web application. Main feature is real time chat, user post like facebook. It's not responsive. Focus only sever site. But there are too many work in client side. In desktop or laptop this site is perfectly suitable",
     URL: "https://chat-app-d35e5.firebaseapp.com/",
     github: "",
+    img: "chat_app.png",
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ const projectDetails = [
       "Ema Jhon. An e-comerce website. Customer can add product to cart when logged in.",
     URL: "https://my-react-app001.firebaseapp.com",
     github: "",
+    img: "ena_jhon.png",
   },
   {
     id: 6,
@@ -51,6 +56,7 @@ const projectDetails = [
     about: "Travelling website named travel-guru",
     URL: "https://assignment-fa252.firebaseapp.com/",
     github: "",
+    img: "travel_guru.png",
   },
   {
     id: 7,
@@ -59,6 +65,7 @@ const projectDetails = [
     about: "Hotel Burj-Al-Arab Website. Here a customer can book room ",
     URL: "https://burj-al-arab-b9b4a.firebaseapp.com/",
     github: "",
+    img: "burj_al_arab.png",
   },
   {
     id: 8,
@@ -67,6 +74,7 @@ const projectDetails = [
     about: "E-School website.",
     URL: "https://sujonali8276.github.io/e-school-resorces/",
     github: "",
+    img: "e_school.png",
   },
   {
     id: 9,
@@ -75,6 +83,7 @@ const projectDetails = [
     about: "Simple E-Comerce website",
     URL: "https://sujonali8276.github.io/bootstrap-practice/",
     github: "",
+    img: "e_commerce.png",
   },
   {
     id: 10,
@@ -84,6 +93,7 @@ const projectDetails = [
       "Simple portfolio ( Approximately created 1year ago). Its not updated, just for practice",
     URL: "https://sujonali8276.github.io/portfolio-project1-update-/",
     github: "",
+    img: "creative_agency.png",
   },
 
   {
@@ -94,6 +104,7 @@ const projectDetails = [
       "Simple CV ( Approximately created 1year ago). Its not updated, just for practice. Definately information should be updated",
     URL: "https://sujonali8276.github.io/MyCV/",
     github: "",
+    img: "cv.png",
   },
   {
     id: 12,
@@ -102,6 +113,7 @@ const projectDetails = [
     about: "Simple Bank transaction website ",
     URL: "https://sujoncse1803100.github.io/pionear-bank/",
     github: "",
+    img: "bank_transaction.png",
   },
 ];
 

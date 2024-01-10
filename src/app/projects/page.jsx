@@ -1,17 +1,18 @@
 "use client";
 import styles from "./page.module.css";
 import projectDetails from "g/utils/projectDetails";
+import "./style.css";
 
 const page = () => {
   return (
-    <div className={styles.projects}>
+    <div className={`${styles.projects}`}>
       {projectDetails?.map((project, index) => {
         return (
-          <div className={styles.project}>
-            <div className={styles.desc}>
+          <div className={`flex flex-col md:flex-row md:project`}>
+            <div className={`md:w-1/2 ${styles.desc}`}>
               <p className="projectNo">
                 <strong>Porject No: </strong>
-                {project.id < 10 ? `0${project.id}` : project.id}
+                {project.id < 10 ? `0${index + 1}` : project.id}
               </p>
               <p className="name">
                 <strong>Name: </strong>
@@ -21,8 +22,7 @@ const page = () => {
                 <strong>Description: </strong>
                 {project.about}
               </p>
-            </div>
-            <div className={styles.others}>
+
               <p>
                 <strong>Technologies: </strong>
                 {project.technology}
@@ -38,6 +38,14 @@ const page = () => {
                 <a href="#">github repository</a>
               </p>
               <br />
+            </div>
+
+            <div className={`md:w-1/2 ${styles.others}`}>
+              <img
+                src={`/portfolio/${project.img}`}
+                className={`${styles.image}`}
+                alt="Email"
+              />
             </div>
           </div>
         );

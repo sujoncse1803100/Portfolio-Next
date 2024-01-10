@@ -8,7 +8,7 @@
 
 .main-hr {
   width: 50%;
-  margin-top: 20px;
+  /* margin-top: 5px; */
   margin-bottom: 20px;
   border-color: green !important;
 }
@@ -19,6 +19,7 @@
   /* color: green; */
   margin-top: 20px;
   margin-bottom: 20px;
+  font-size: 30px;
 }
 
 .school {
@@ -51,9 +52,9 @@
 }
 
 .logo {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
 }
 
 .hr {
@@ -76,8 +77,13 @@ p {
   align-items: center;
 }
 
+p {
+  font-size: 15px;
+}
+
 .achiev-title {
   color: green;
+  font-size: 20px;
 }
 
 .achiev:hover {

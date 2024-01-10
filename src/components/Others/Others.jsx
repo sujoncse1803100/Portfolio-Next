@@ -1,56 +1,16 @@
 import React from "react";
 import "./style.css";
 import Image from "next/image";
+import Contact from "../Contact/Contact";
+import Achievement from "../Achievment/Achievement";
 
-const page = () => {
+const Others = () => {
   return (
     <div className="">
       <div className="main-item">
         <h1 className="title">Achievements</h1>
         <hr className="main-hr" />
-        <div className="achiev">
-          <p>
-            <span className="achiev-title">Achievment No :</span> 01
-          </p>
-
-          <p>
-            <span className="achiev-title">Title :</span> 2023 ICPC Asia Dhaka
-            Regional Site Online Preliminary Contest
-          </p>
-
-          <p>
-            <span className="achiev-title">ICPC Profile :</span>{" "}
-            <a href="https://icpc.global/ICPCID/C5URH1KZ5BY3">
-              click to see my icpc public profile
-            </a>
-          </p>
-
-          <p>
-            <span className="achiev-title">Certificattions :</span>{" "}
-            <a href="https://drive.google.com/drive/folders/1OpHKzMBisvEEdTJJ3L_XKmVuHSfUVaDq?usp=drive_link">
-              click for the certificate
-            </a>
-          </p>
-        </div>
-        <div className="achiev">
-          <p>
-            <span className="achiev-title">Achievement No :</span> 02
-          </p>
-
-          <p>
-            <span className="achiev-title">Title :</span> Successfully Complete
-            a Redux Course
-          </p>
-
-          <p>
-            <span className="achiev-title">
-              Certificate and Job Recomendation letter :
-            </span>
-            <a href="https://drive.google.com/drive/folders/1-QGZGt5diFHHiXRc1p8hUGNHEjrLIlp4">
-              click to see the details
-            </a>
-          </p>
-        </div>
+        <Achievement />
       </div>
       <div className="main-item">
         <h1 className="title">Education</h1>
@@ -114,9 +74,14 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className="languages"></div>
+      <div className="main-item">
+        <h1 className="title">Find Me</h1>
+        <hr className="main-hr" />
+
+        <Contact />
+      </div>
     </div>
   );
 };
 
-export default page;
+export default Others;

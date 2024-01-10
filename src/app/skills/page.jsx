@@ -12,11 +12,13 @@ const page = () => {
       </div>
 
       <div className="skills">
-        <h1 className="title">Style Language</h1>
+        <h1 className="title">Styling</h1>
         <div className="sub-skills">
           <div className="items">CSS</div>
           <div className="items">Tailwind CSS</div>
           <div className="items">BootStrap</div>
+          <div className="items">Material UI</div>
+          <div className="items">Styled Component</div>
         </div>
       </div>
 
@@ -29,7 +31,6 @@ const page = () => {
           <div className="items">C (Medium)</div>
           <div className="items">JAVA (Medium)</div>
           <div className="items">PHP (Basic)</div>
-          <div className="items">Python (Medium)</div>
         </div>
       </div>
 
