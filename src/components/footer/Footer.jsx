@@ -7,13 +7,15 @@ const Footer = () => {
     <div className={styles.container}>
       <div>@2024 Sujon Ali. All rights reserved.</div>
       <div className={styles.social}>
-        <Image
-          src="/1.png"
-          width={15}
-          height={15}
-          className={styles.icon}
-          alt="Facebook Account"
-        />
+        <a href="https://www.facebook.com/sujonali386/">
+          <Image
+            src="/1.png"
+            width={15}
+            height={15}
+            className={styles.icon}
+            alt="Facebook Account"
+          />
+        </a>
         <Image
           src="/2.png"
           width={15}

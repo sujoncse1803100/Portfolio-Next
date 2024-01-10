@@ -3,10 +3,16 @@ import "./style.css";
 import Image from "next/image";
 import Contact from "../Contact/Contact";
 import Achievement from "../Achievment/Achievement";
+import Aboutme from "../AboutMe/Aboutme";
 
 const Others = () => {
   return (
     <div className="">
+      <div className="main-item">
+        <h1 className="title">About Me</h1>
+        <hr className="main-hr" />
+        <Aboutme />
+      </div>
       <div className="main-item">
         <h1 className="title">Achievements</h1>
         <hr className="main-hr" />

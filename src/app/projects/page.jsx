@@ -35,7 +35,7 @@ const page = () => {
 
               <p>
                 <strong>Code : </strong>
-                <a href="#">github repository</a>
+                <a href={project.github}>github repository</a>
               </p>
               <br />
             </div>
@@ -44,7 +44,7 @@ const page = () => {
               <img
                 src={`/portfolio/${project.img}`}
                 className={`${styles.image}`}
-                alt="Email"
+                alt="Image"
               />
             </div>
           </div>

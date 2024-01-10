@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 // import nodemailer from "nodemailer";
+import "./style.css";
 
 const Form = () => {
   const [formData, setFormData] = useState({
@@ -29,7 +30,11 @@ const Form = () => {
   };
 
   return (
-    <div className="flex justify-around items-center w-full mb-12">
+    <div className="flex flex-col md:flex-row justify-around items-center w-full mb-12">
+      <div className="mb-5">
+        <img src="/contact_image.jpg" className="contact_image" alt="Contact" />
+      </div>
+
       <div className="flex flex-col justify-center items-center ">
         <form
           onSubmit={handleSubmit}
@@ -68,7 +73,7 @@ const Form = () => {
               className="w-full border p-2 rounded-md"
               rows="4"
               required
-              placeholder="Put some word......."
+              placeholder="Put your words....."
             ></textarea>
           </div>
           <button
@@ -78,35 +83,6 @@ const Form = () => {
             Submit
           </button>
         </form>
-      </div>
-
-      <div className="flex flex-col justify-center items-center space-y-4">
-        <h1>Let's contact with me via......</h1>
-        <div className="flex space-x-4">
-          <Image
-            src="/email.png"
-            width={18}
-            height={18}
-            className="icon"
-            alt="Email"
-          />
-          <a className="content" href="mailto:sujonali8276@gmail.com">
-            sujonali8276@gmail.com
-          </a>
-        </div>
-
-        <div className="flex space-x-4">
-          <Image
-            src="/call.png"
-            width={18}
-            height={18}
-            className="icon"
-            alt="Telephone"
-          />
-          <a className="content" href="tel:+8801782562576">
-            +8801782562576
-          </a>
-        </div>
       </div>
     </div>
   );

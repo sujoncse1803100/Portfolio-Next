@@ -22,16 +22,16 @@ const links = [
     title: "Skills",
     url: "/skills",
   },
-  {
-    id: 4,
-    title: "Others",
-    url: "/others",
-  },
-  {
-    id: 5,
-    title: "About Me",
-    url: "/aboutme",
-  },
+  // {
+  //   id: 4,
+  //   title: "Others",
+  //   url: "/others",
+  // },
+  // {
+  //   id: 5,
+  //   title: "About Me",
+  //   url: "/aboutme",
+  // },
 ];
 
 const Navbar = () => {
@@ -44,7 +44,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="">
+    <div className="p-5">
       <div className="flex justify-between items-center">
         <Link href="/">Querist</Link>
 
