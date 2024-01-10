@@ -8,7 +8,7 @@ const page = () => {
     <div className={`${styles.projects}`}>
       {projectDetails?.map((project, index) => {
         return (
-          <div className={`flex flex-col md:flex-row md:project`}>
+          <div key={index} className={`flex flex-col md:flex-row md:project`}>
             <div className={`md:w-1/2 ${styles.desc}`}>
               <p className="projectNo">
                 <strong>Porject No: </strong>

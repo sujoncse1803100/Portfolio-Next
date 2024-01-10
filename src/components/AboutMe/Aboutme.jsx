@@ -62,25 +62,25 @@ const Aboutme = () => {
       </div>
       <div className="description mt-8 mb-5">
         <p>
-          📆 Since 2020, I've been on an exciting journey in the world of web
-          development, and it's been a thrilling ride! As a Computer Science and
-          Engineering student at Rajshahi University of Engineering &
-          Technology, I've honed my skills and become a professional in this
-          field.
+          📆 Since 2020, I&apos;ve been on an exciting journey in the world of
+          web development, and it&apos;s been a thrilling ride! As a Computer
+          Science and Engineering student at Rajshahi University of Engineering
+          &amp; Technology, I&apos;ve honed my skills and become a professional
+          in this field.
           <br />
           🚀 I specialize in full-stack web development, creating dynamic and
           user-friendly applications. My tech toolkit includes HTML, CSS,
           Bootstrap, JavaScript, React, Redux, MongoDB, Node.js (Express.js),
           and MySQL.
           <br />
-          💼 Recently, I've successfully completed multiple full-stack projects,
-          demonstrating my ability to bring ideas to life and deliver top-notch
-          solutions. I'm passionate about satisfying clients with my acquired
-          skills, and I'm always eager to take on new challenges in the
-          ever-evolving web development landscape.
+          💼 Recently, I&apos;ve successfully completed multiple full-stack
+          projects, demonstrating my ability to bring ideas to life and deliver
+          top-notch solutions. I&apos;m passionate about satisfying clients with
+          my acquired skills, and I&apos;m always eager to take on new
+          challenges in the ever-evolving web development landscape.
           <br />
-          🌟 Let's connect and explore opportunities to create innovative web
-          solutions together!
+          🌟 Let&apos;s connect and explore opportunities to create innovative
+          web solutions together!
         </p>
       </div>
 
