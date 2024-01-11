@@ -1,9 +1,54 @@
 .logo-image {
-  width: 100%;
+  width: 350px;
   height: 200px;
 }
 
 .achievement {
   width: 350px;
-  height: 500px;
+  height: 400px;
+  cursor: pointer;
+  /* border: 10px; */
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.card1 {
+  overflow: hidden;
+}
+
+.card1::before {
+  position: absolute;
+  content: "";
+  height: 550px;
+  width: 175px;
+  background: red;
+  transform: rotate(45deg);
+}
+
+.card1 > p,
+img,
+div {
+  z-index: 10;
+}
+
+.card1:hover::before {
+  animation: animate2 2s linear infinite;
+}
+
+@keyframes animate2 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card1::after {
+  position: absolute;
+  content: "";
+  inset: 5px;
+  background: #fff;
+  border-radius: 8px;
 }

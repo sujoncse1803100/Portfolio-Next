@@ -21,7 +21,7 @@ const Others = () => {
       <div className="main-item">
         <h1 className="title">Education</h1>
         <hr className="main-hr" />
-        <div className="school">
+        <div className="flex flex-col justify-between items-center  md:flex-row  school">
           <div className="desc">
             <h2 className="sub-title">BSc</h2>
             <hr className="hr" />
@@ -40,7 +40,7 @@ const Others = () => {
               3.05 out of 4.00
             </p>
           </div>
-          <div className="img">
+          <div className="img ">
             <Image
               src="/Logo_RUET.png"
               width={100}
@@ -50,7 +50,7 @@ const Others = () => {
             />
           </div>
         </div>
-        <div className="school">
+        <div className="flex flex-col justify-between items-center  md:flex-row school">
           <div className="img">
             <Image
               src="/Logo_RGCC.jpg"
@@ -81,7 +81,7 @@ const Others = () => {
         </div>
       </div>
       <div className="main-item">
-        <h1 className="title">Find Me</h1>
+        <h1 className="title">Reach Me</h1>
         <hr className="main-hr" />
 
         <Contact />

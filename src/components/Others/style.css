@@ -28,14 +28,44 @@
   margin: 20px;
   box-sizing: border-box;
   padding: 20px 0;
+  position: relative;
+  cursor: pointer;
 }
 
-.school:hover {
+/* .school:hover {
+  box-shadow: 0 0 15px rgba(128, 128, 128, 0.6);
+} */
+
+.school::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+}
+
+.school:hover::before {
+  height: 101%;
+  width: 101%;
+  animation: animate 2s linear infinite;
+  border: 2px solid tomato;
+  border-radius: 15px;
+  z-index: -1;
+  transition: 0.5s;
   box-shadow: 0 0 15px rgba(128, 128, 128, 0.6);
 }
 
+@keyframes animate {
+  50% {
+    filter: hue-rotate(350deg);
+  }
+}
+
+.school > div {
+  z-index: 10;
+}
+
 .desc {
-  width: 50%;
+  /* width: 50%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,10 +75,12 @@
 }
 
 .img {
-  width: 50%;
+  /* width: 50%; */
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .logo {

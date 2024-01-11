@@ -5,8 +5,8 @@ import "./style.css";
 const Achievement = () => {
   return (
     <div className="flex flex-wrap justify-around items-center w-full">
-      <div className="mx-2 achievement  my-4 bg-white shadow-md rounded-md overflow-hidden">
-        <img src="/ICPC.png" className="logo-image" alt="redux" />
+      <div className="mx-2 achievement card1  my-4 bg-white shadow-md rounded-md overflow-hidden">
+        <img src="/ICPC.png" className="logo-image p-4" alt="redux" />
 
         <div className="flex flex-col p-4">
           <p className="text-lg font-semibold mb-5">
@@ -23,8 +23,8 @@ const Achievement = () => {
         </div>
       </div>
 
-      <div className="mx-2 achievement  my-4 bg-white shadow-md rounded-md overflow-hidden">
-        <img src="/Redux.jpeg" className="logo-image" alt="redux" />
+      <div className="mx-2 achievement card1 my-4 bg-white shadow-md rounded-md overflow-hidden">
+        <img src="/Redux.jpeg" className="logo-image p-4" alt="redux" />
 
         <div className="flex flex-col p-4">
           <p className="text-lg font-semibold mb-5">
